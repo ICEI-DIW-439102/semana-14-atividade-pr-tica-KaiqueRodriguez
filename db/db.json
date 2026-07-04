@@ -11,8 +11,14 @@
       "destaque": true,
       "imagem_principal": "assets/img/Grace.png",
       "fotos": [
-        { "titulo": "Capa do jogo", "imagem": "assets/img/Grace.png" },
-        { "titulo": "Resident Evil 4 Remake", "imagem": "assets/img/Leon.png" }
+        {
+          "titulo": "Capa do jogo",
+          "imagem": "assets/img/Grace.png"
+        },
+        {
+          "titulo": "Resident Evil 4 Remake",
+          "imagem": "assets/img/Leon.png"
+        }
       ]
     },
     {
@@ -26,8 +32,14 @@
       "destaque": true,
       "imagem_principal": "assets/img/Arthur.png",
       "fotos": [
-        { "titulo": "Capa do jogo", "imagem": "assets/img/Arthur.png" },
-        { "titulo": "Conquista Corrida de Ouro", "imagem": "assets/img/Rdr2.png" }
+        {
+          "titulo": "Capa do jogo",
+          "imagem": "assets/img/Arthur.png"
+        },
+        {
+          "titulo": "Conquista Corrida de Ouro",
+          "imagem": "assets/img/Rdr2.png"
+        }
       ]
     },
     {
@@ -41,7 +53,10 @@
       "destaque": true,
       "imagem_principal": "assets/img/Dmc3.png",
       "fotos": [
-        { "titulo": "Capa do jogo", "imagem": "assets/img/Dmc3.png" }
+        {
+          "titulo": "Capa do jogo",
+          "imagem": "assets/img/Dmc3.png"
+        }
       ]
     },
     {
@@ -55,7 +70,10 @@
       "destaque": false,
       "imagem_principal": "assets/img/Subnautica.png",
       "fotos": [
-        { "titulo": "Imagem promocional", "imagem": "assets/img/Subnautica.png" }
+        {
+          "titulo": "Imagem promocional",
+          "imagem": "assets/img/Subnautica.png"
+        }
       ]
     },
     {
@@ -69,9 +87,49 @@
       "destaque": false,
       "imagem_principal": "assets/img/Hades.png",
       "fotos": [
-        { "titulo": "Capa do jogo", "imagem": "assets/img/Hades.png" },
-        { "titulo": "Conquista especial", "imagem": "assets/img/ConquistaHades.png" }
+        {
+          "titulo": "Capa do jogo",
+          "imagem": "assets/img/Hades.png"
+        },
+        {
+          "titulo": "Conquista especial",
+          "imagem": "assets/img/ConquistaHades.png"
+        }
       ]
+    },
+    {
+      "nome": "Elden Ring",
+      "descricao": "Jogo",
+      "conteudo": "ddd",
+      "genero": "Rpg",
+      "horas": "3",
+      "conquistas": "10",
+      "destaque": false,
+      "imagem_principal": "assets/img/Logo_png.png",
+      "fotos": [
+        {
+          "titulo": "Capa do jogo",
+          "imagem": "assets/img/Logo_png.png"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nome": "teste",
+      "descricao": "1",
+      "conteudo": "1",
+      "genero": "teste",
+      "horas": "3",
+      "conquistas": "1",
+      "destaque": false,
+      "imagem_principal": "assets/img/Logo_png.png",
+      "fotos": [
+        {
+          "titulo": "Capa do jogo",
+          "imagem": "assets/img/Logo_png.png"
+        }
+      ],
+      "id": 7
     }
   ],
   "usuarios": [
