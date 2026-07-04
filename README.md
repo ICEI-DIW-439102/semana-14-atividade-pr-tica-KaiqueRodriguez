@@ -10,15 +10,15 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Kaique Rodrigues
+- Matricula: 913328
+- Proposta de projeto escolhida: My GameRoom — catálogo de jogos
+- Breve descrição sobre seu projeto: O My GameRoom é uma aplicação web para catalogar e explorar jogos, funcionando como uma "sala de jogos" pessoal. Os dados dos jogos (nome, gênero, horas jogadas, conquistas e imagens) são servidos por um backend simulado com JSON Server e consumidos de forma assíncrona via Fetch API, com renderização dinâmica dos cards e páginas de detalhe no DOM.
 
 **Print da tela com a implementação**
 
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![alt text](public/assets/img/image.png)
 
 <<  COLOQUE A IMAGEM TELA 2 AQUI >>

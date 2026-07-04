@@ -1,18 +1,96 @@
 {
+  "jogos": [
+    {
+      "id": 1,
+      "nome": "Resident Evil 9",
+      "descricao": "Novo capítulo da franquia de terror e sobrevivência.",
+      "conteudo": "Resident Evil 9 mantém o clima sombrio da série, com foco em exploração, tensão, narrativa e sobrevivência.",
+      "genero": "Terror / Sobrevivência",
+      "horas": "18H",
+      "conquistas": "25/50",
+      "destaque": true,
+      "imagem_principal": "assets/img/Grace.png",
+      "fotos": [
+        { "titulo": "Capa do jogo", "imagem": "assets/img/Grace.png" },
+        { "titulo": "Resident Evil 4 Remake", "imagem": "assets/img/Leon.png" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Red Dead Redemption 2",
+      "descricao": "Aventura de mundo aberto no velho oeste.",
+      "conteudo": "Um jogo com narrativa forte, exploração, missões marcantes e grande liberdade para o jogador.",
+      "genero": "Ação / Mundo Aberto",
+      "horas": "64H",
+      "conquistas": "49/51",
+      "destaque": true,
+      "imagem_principal": "assets/img/Arthur.png",
+      "fotos": [
+        { "titulo": "Capa do jogo", "imagem": "assets/img/Arthur.png" },
+        { "titulo": "Conquista Corrida de Ouro", "imagem": "assets/img/Rdr2.png" }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Devil May Cry 3",
+      "descricao": "Jogo de ação focado em combos e estilo.",
+      "conteudo": "Devil May Cry 3 é conhecido por sua jogabilidade rápida, dificuldade elevada e sistema de combate estiloso.",
+      "genero": "Hack and Slash",
+      "horas": "7H",
+      "conquistas": "15/33",
+      "destaque": true,
+      "imagem_principal": "assets/img/Dmc3.png",
+      "fotos": [
+        { "titulo": "Capa do jogo", "imagem": "assets/img/Dmc3.png" }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Subnautica",
+      "descricao": "Exploração e sobrevivência em um planeta oceânico.",
+      "conteudo": "O jogador explora ambientes subaquáticos, coleta recursos e descobre mistérios em um mundo alienígena.",
+      "genero": "Sobrevivência",
+      "horas": "2H",
+      "conquistas": "2/17",
+      "destaque": false,
+      "imagem_principal": "assets/img/Subnautica.png",
+      "fotos": [
+        { "titulo": "Imagem promocional", "imagem": "assets/img/Subnautica.png" }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Hades II",
+      "descricao": "Roguelike de ação com mitologia grega.",
+      "conteudo": "Hades II mistura combate rápido, evolução constante e narrativa baseada em personagens mitológicos.",
+      "genero": "Roguelike / Ação",
+      "horas": "4H",
+      "conquistas": "8/50",
+      "destaque": false,
+      "imagem_principal": "assets/img/Hades.png",
+      "fotos": [
+        { "titulo": "Capa do jogo", "imagem": "assets/img/Hades.png" },
+        { "titulo": "Conquista especial", "imagem": "assets/img/ConquistaHades.png" }
+      ]
+    }
+  ],
   "usuarios": [
     {
       "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "email": "admin@abc.com",
+      "admin": true
     },
     {
       "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
       "login": "user",
       "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "nome": "Usuário Comum",
+      "email": "user@abc.com",
+      "admin": false
     }
-  ]
+  ],
+  "favoritos": []
 }
