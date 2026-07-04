@@ -16,9 +16,10 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 - Breve descrição sobre seu projeto: O My GameRoom é uma aplicação web para catalogar e explorar jogos, funcionando como uma "sala de jogos" pessoal. Os dados dos jogos (nome, gênero, horas jogadas, conquistas e imagens) são servidos por um backend simulado com JSON Server e consumidos de forma assíncrona via Fetch API, com renderização dinâmica dos cards e páginas de detalhe no DOM.
 
 **Print da tela com a implementação**
+Nesta etapa foi implementada a página `graficos.html`, que apresenta os dados dos jogos de forma dinâmica utilizando a biblioteca **Chart.js**. A página realiza uma requisição assíncrona com Fetch API ao endpoint `/jogos` do JSON Server e processa os dados em JavaScript para montar duas visualizações: um **gráfico de pizza** com a distribuição de jogos por gênero (os gêneros compostos, como "Roguelike / Ação", são separados e contabilizados individualmente) e um **gráfico de barras** com as horas jogadas em cada jogo (convertendo valores como "64H" em números). Também foi incluída a página `cadastro.html`, com o CRUD completo de jogos (cadastro, edição e exclusão via Fetch API). Os gráficos refletem automaticamente as alterações feitas nos dados por meio do CRUD, como mostram os prints abaixo — o segundo foi tirado após o cadastro de um novo jogo.
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+![img](public/assets/img/image.png)
 
-![alt text](public/assets/img/image.png)
+![img](public/assets/img/cadastro.png)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![img](public/assets/img/resultado.png)
